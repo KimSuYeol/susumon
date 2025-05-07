@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class MinjinController {
 
     @GetMapping("/minjin")
-    public @ResponseBody minjin() {
+    public @ResponseBody String minjin() {
         return "Hello, Minjin";
     }
 
